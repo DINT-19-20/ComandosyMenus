@@ -18,7 +18,7 @@ namespace Comandos
         public static readonly RoutedUICommand Clear = new RoutedUICommand
             (
             "Vaciar", "Clear", typeof(CustomCommands),
-            new InputGestureCollection() { new KeyGesture(Key.V, ModifierKeys.Control) }
+            new InputGestureCollection() { new KeyGesture(Key.V, ModifierKeys.Alt) }
             );
     
     }
